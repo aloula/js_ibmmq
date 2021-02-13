@@ -56,7 +56,7 @@ $ npm install ibmmq
 7 - Test connection:
 ```
 $ node conn.js
-Sample AMQSCONN.JS start
+Connection test started...
 MQCONN to QM1 successful 
 MQDISC successful
 ```
@@ -64,10 +64,10 @@ MQDISC successful
 8 - Put a message in the queue:
 ```
 $ node put.js
-Sample AMQSPUT.JS start
+Trying to put a message...
 MQCONN to QM1 successful 
 MQOPEN of DEV.QUEUE.1 successful
-MsgId: 414d5120514d31202020202020202020b01b286002d45323
+MsgId: 414d5120514d31202020202020202020c73428600358ca22
 MQPUT successful
 MQCLOSE successful
 MQDISC successful
@@ -76,10 +76,10 @@ MQDISC successful
 9 - Get a message in the queue:
 ```
 $ node get.js
-Sample AMQSGET.JS start
+Trying to get a message...
 MQCONN to QM1 successful 
 MQOPEN of DEV.QUEUE.1 successful
-message len=77 <Hello from Node at Sat Feb 13 2021 15:58:13 GMT-0300 (Brasilia Standard Time)>
+message len=77 <Hello from Node at Sat Feb 13 2021 17:24:35 GMT-0300 (Brasilia Standard Time)>
 no more messages
 MQCLOSE successful
 MQDISC successful
