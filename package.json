@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "ibmmq": "^0.9.16"
+  }
+}
