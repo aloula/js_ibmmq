@@ -1,6 +1,6 @@
 ### JavaScript and IBM MQ
 
-JavaScript basic examples for interfacing with IBM MQ. 
+Basic JavaScript examples for interfacing with IBM MQ. 
 
 The **<$>** means you are local and **<bash4-4$>** you are inside IBM MQ Server Docker Container. This was tested on Ubuntu Linux 20.04 LTS.
 
