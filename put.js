@@ -63,7 +63,7 @@ function cleanup(hConn,hObj) {
 // Connect to the queue manager. If that works, the callback function
 // opens the queue, and then we can put a message.
 
-console.log("Sample AMQSPUT.JS start");
+console.log("Trying to put a message...");
 
 // Get command line parameters
 var myArgs = process.argv.slice(2); // Remove redundant parms

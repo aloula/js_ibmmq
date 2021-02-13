@@ -102,7 +102,7 @@ function cleanup(hConn,hObj) {
 // Connect to the queue manager. If that works, the callback function
 // opens the queue, and then we can start to retrieve messages.
 
-console.log("Sample AMQSGET.JS start");
+console.log("Trying to get a message...");
 
 // Get command line parameters
 var myArgs = process.argv.slice(2); // Remove redundant parms

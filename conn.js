@@ -25,7 +25,7 @@ function sleep(ms) {
 
 // The program starts here.
 // Connect to the queue manager.
-console.log("Sample AMQSCONN.JS start");
+console.log("Connection test started...");
 
 // Create default MQCNO structure
 var cno = new mq.MQCNO();
