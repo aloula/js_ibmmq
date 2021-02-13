@@ -42,12 +42,6 @@ bash-4.4$ exit
 
 ```
 
-5 - Clone this repository:
-
-```
-$ git clone https://github.com/aloula/js_ibmmq
-```
-
 6 - Install the **mq-mqi-nodejs** module:
 ```
 $ npm install ibmmq
